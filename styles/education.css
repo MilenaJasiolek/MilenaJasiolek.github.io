@@ -6,7 +6,6 @@
 
 .education {
   padding: 2.5rem;
-  font-weight: 100;
 }
 
 .education i {
@@ -18,15 +17,15 @@
   position: relative;
   display: inline-block;
   font-size: 4rem;
-  width: 50vw;
+  width: 50%;
   margin-top: 30px;
 }
 
 .education h1::after {
   position: absolute;
   content: "";
-  top: 155%;
-  right: 102%;
+  top: 117%;
+  right: 114%;
   width: 5%;
   height: 4px;
   background-color: rgb(168, 123, 136);
@@ -35,8 +34,8 @@
   position: absolute;
   content: "";
   top: 50%;
-  right: 15%;
-  width: 45%;
+  right: -60%;
+  width: 90%;
   height: 3px;
   background-color: rgb(119, 93, 103);
 }
