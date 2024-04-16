@@ -1,17 +1,16 @@
 .information {
   flex-basis: 60vw;
-  height: 90%;
-  background-color: red;
   margin-left: 1%;
+  background-color: rgb(48, 15, 19);
+  border-radius: 10px;
+  max-height: 87vh;
 }
 
 .about {
-  background-color: rgb(48, 15, 19);
   border-radius: 10px;
   box-sizing: border-box;
   padding: 3rem;
   font-weight: 100;
-  height: calc(100vh - var(--header-height) - 20px);
   overflow-y: auto;
 }
 
@@ -19,33 +18,41 @@
   font-size: 36px;
   margin-right: 20px;
 }
+
 .about h1 {
   color: rgb(238, 228, 232);
   position: relative;
   display: inline-block;
   font-size: 3rem;
   width: 50vw;
+  margin-top: 20px;
 }
 
 .about h1::after {
   position: absolute;
   content: "";
   top: 50%;
-  right: -80%;
+  right: 15%;
   width: 60%;
   height: 3px;
   background-color: rgb(119, 93, 103);
 }
 
-.about h2 {
-  color: rgb(238, 228, 232);
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 .about p {
   color: rgb(238, 228, 232);
   margin: 0.5rem 0;
   text-align: left;
+  display: block;
+}
+.about span {
+  font-weight: bold;
+}
+
+.about h2 {
+  color: rgb(238, 228, 232);
+  font-size: 2rem;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 .work {
@@ -54,9 +61,10 @@
   grid-template-rows: repeat(2, min-content);
   gap: 20px;
   margin-top: 40px;
+  /* width: 80%; */
 }
 
-.work .workbox {
+.work__box {
   display: flex;
   flex-direction: column;
   background-color: #300f13;
@@ -65,24 +73,17 @@
   border: 2px solid rgb(194, 185, 188);
 }
 
-.work .workbox .icon {
+.work__icon {
   font-size: 36px;
   color: rgb(238, 228, 232);
 }
 
-.work .workbox img {
-  width: 36px;
-  height: 36px;
-  margin: 15px;
-  color: rgb(238, 228, 232);
-}
-
-.work .workbox .desc {
+.work__desc {
   color: rgb(119, 93, 103);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .work {
     grid-template-columns: minmax(min-content, auto);
   }
-}
+} */
