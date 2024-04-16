@@ -34,7 +34,7 @@ ul {
   column-gap: var(--col-gap);
   list-style: none;
   margin-inline: auto;
-  width: 90%;
+  width: 100%;
   padding-top: 2%;
 }
 
@@ -103,8 +103,8 @@ ul li .date::after {
   border: 0.3rem solid var(--accent-color);
   border-radius: 50%;
   top: 50%;
-  transform: translate(50%, -50%);
-  right: calc(100% + var(--col-gap) + var(--line-w) / 2);
+  /* transform: translate(50%, -50%); */
+  /* right: calc(100% + var(--col-gap) + var(--line-w) / 2); */
 }
 
 /* title descr */
