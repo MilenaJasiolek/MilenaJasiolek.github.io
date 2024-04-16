@@ -71,9 +71,10 @@
   border: 2px solid rgb(194, 185, 188);
 }
 
-.work__icon {
-  font-size: 36px;
+.work__icon i {
+  font-size: 2rem;
   color: rgb(238, 228, 232);
+  padding-bottom: 10px;
 }
 
 .work__desc {
