@@ -4,18 +4,16 @@
   background-color: rgb(48, 15, 19);
   border-radius: 10px;
   max-height: 87vh;
-}
-
-.about {
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 3rem;
-  font-weight: 100;
   overflow-y: auto;
 }
 
+.about {
+  padding: 2.5rem;
+  font-weight: 100;
+}
+
 .about i {
-  font-size: 36px;
+  font-size: 4rem;
   margin-right: 20px;
 }
 
@@ -23,16 +21,16 @@
   color: rgb(238, 228, 232);
   position: relative;
   display: inline-block;
-  font-size: 3rem;
+  font-size: 4rem;
   width: 50vw;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .about h1::after {
   position: absolute;
   content: "";
   top: 50%;
-  right: 15%;
+  right: 10%;
   width: 60%;
   height: 3px;
   background-color: rgb(119, 93, 103);

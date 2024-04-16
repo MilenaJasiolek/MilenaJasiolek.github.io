@@ -1,0 +1,52 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.projects i {
+  font-size: 4rem;
+}
+
+.projects h1 {
+  color: rgb(238, 228, 232);
+  position: relative;
+  display: inline-block;
+  font-size: 4rem;
+  width: 50vw;
+  margin-top: 15px;
+}
+
+.project__box {
+  display: flex;
+  border-radius: 20px;
+  width: 350px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project__image {
+  height: 200px;
+  width: 340px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.project__box button {
+  width: 40%;
+  background: linear-gradient(45deg, rgb(119, 93, 103), rgb(123, 67, 83));
+  color: rgb(37, 9, 17);
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(37, 9, 17);
+}
