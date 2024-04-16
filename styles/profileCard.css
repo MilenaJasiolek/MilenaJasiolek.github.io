@@ -1,0 +1,115 @@
+.container_profile-card {
+  height: calc(100% - var(--header-height) - 20px);
+  flex-basis: 20vw;
+  margin-left: 8%;
+}
+
+.profile-card {
+  background-color: #300f13;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.profile-card__profile-pic {
+  margin-top: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.profile-card__profile-pic img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.profile-card__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 20px; */
+  /* width: 100%; */
+}
+
+.profile-card__name {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.profile-card__socials {
+  margin-bottom: 25px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.profile-card__social-link {
+  font-size: 16px;
+  color: rgb(238, 228, 232);
+  margin: 6px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.profile-card__social-link:hover {
+  transform: scale(1.2);
+}
+
+.profile-card__contact-info {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.profile-card__row {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 40px;
+  padding: 10px 0;
+}
+
+.profile-card__content {
+  width: calc(100% - 50px);
+  word-break: break-all;
+  font-size: 18px;
+}
+
+.profile-card__icon {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: rgb(119, 93, 103);
+  text-align: center;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.profile-card__CV {
+  background: linear-gradient(45deg, rgb(119, 93, 103), rgb(123, 67, 83));
+  color: rgb(37, 9, 17);
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  margin-top: 1.5rem;
+  border: none;
+  font-size: 23px;
+  top: 130px;
+}
+
+.profile-card__CV a {
+  color: rgb(48, 15, 19);
+}
+
+.profile-card__CV:hover {
+  background: linear-gradient(45deg, rgb(119, 93, 103), rgb(168, 123, 136));
+}

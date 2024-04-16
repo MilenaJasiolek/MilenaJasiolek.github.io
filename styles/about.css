@@ -1,0 +1,88 @@
+.information {
+  flex-basis: 60vw;
+  height: 90%;
+  background-color: red;
+  margin-left: 1%;
+}
+
+.about {
+  background-color: rgb(48, 15, 19);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 3rem;
+  font-weight: 100;
+  height: calc(100vh - var(--header-height) - 20px);
+  overflow-y: auto;
+}
+
+.about i {
+  font-size: 36px;
+  margin-right: 20px;
+}
+.about h1 {
+  color: rgb(238, 228, 232);
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  width: 50vw;
+}
+
+.about h1::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -80%;
+  width: 60%;
+  height: 3px;
+  background-color: rgb(119, 93, 103);
+}
+
+.about h2 {
+  color: rgb(238, 228, 232);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.about p {
+  color: rgb(238, 228, 232);
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, auto));
+  grid-template-rows: repeat(2, min-content);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.work .workbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #300f13;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 185, 188);
+}
+
+.work .workbox .icon {
+  font-size: 36px;
+  color: rgb(238, 228, 232);
+}
+
+.work .workbox img {
+  width: 36px;
+  height: 36px;
+  margin: 15px;
+  color: rgb(238, 228, 232);
+}
+
+.work .workbox .desc {
+  color: rgb(119, 93, 103);
+}
+
+@media (max-width: 768px) {
+  .work {
+    grid-template-columns: minmax(min-content, auto);
+  }
+}
