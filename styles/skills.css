@@ -1,42 +1,3 @@
-/* 
-
-.skills h1::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  right: -60%;
-  width: 50%;
-  height: 3px;
-  background-color: rgb(119, 93, 103);
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  margin-top: 20px;
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 25%;
-}
-
-.skills__programming {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: #ff0000;
-  width: 50%;
-}
-
-.skills__programming h2 {
-  color: rgb(238, 228, 232);
-  font-size: 2rem;
-}
-*/
 .skills {
   padding: 2.5rem;
   display: flex;
@@ -45,6 +6,7 @@
 
 .skills i {
   font-size: 4rem;
+  line-height: 4rem;
 }
 
 .skills h1 {
@@ -84,6 +46,7 @@
   border-radius: 10px;
   padding: 10px;
   padding-top: 20px;
+  transition: 700ms all ease-in-out;
 }
 
 .biology-skills {
@@ -129,10 +92,8 @@
   color: rgb(37, 9, 17);
 }
 
-.programming-skills:hover {
-  flex-basis: 75%;
-}
-
+.programming-skills:hover,
 .biology-skills:hover {
-  flex-basis: 75%;
+  width: 90%;
+  transition: width 0.5s ease;
 }
