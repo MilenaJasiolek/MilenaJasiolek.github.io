@@ -27,6 +27,7 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .header__title {

@@ -1,5 +1,5 @@
 .project__container {
-  padding: 2.5rem;
+  padding: 2rem;
 }
 
 .project__container h1 {
@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 1%;
 }
 
 .projectbox {
