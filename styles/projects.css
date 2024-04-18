@@ -37,11 +37,12 @@
   align-items: center;
   border-radius: 20px;
   padding: 10px;
+  height: 350px;
 }
 
 .projectbox img {
   max-width: 100%;
-  height: auto;
+  height: 250px;
 }
 
 .button__container {
